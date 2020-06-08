@@ -38,9 +38,8 @@
 > [Questões com respostas de exemplo - AWS](https://d1.awsstatic.com/training-and-certification/docs-data-analytics-specialty/AWS-Certified-Data-Analytics-Specialty_Sample-Questions.pdf) 
 
 > [Exames testes sobre a prova de Big Data](https://www.whizlabs.com/aws-certified-big-data-specialty/)
-    > - Usar e-mail do suporte para login
-    > - Não desanimem se for muito difícil kkk
-
+    > - Usar e-mail do suporte para login na conta do g-mail
+> [Curso linuxAcademy](https://linuxacademy.com/course/aws-certified-big-data-specialty-course/)
 
 
 ---
@@ -329,8 +328,6 @@
  - https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-web-interfaces.html
 
  - https://docs.aws.amazon.com/pt_br/emr/latest/ReleaseGuide/hue-ldap.html
-
- - https://media.acloud.guru/aws-certified-big-data-specialty/resource/dec42f32-9121-3b6d-3dbd-e6882a53acbd_19bdc3bf-1553-eacc-6af2-356b70c6cc9e/aws-certified-big-data-specialty-d31f7441-8bf1-490d-8896-cf5b6b48c239.pdf?Expires=1557438144&Signature=TuxrAwsTVO5zl5//XW6q2/2EvPwutc0IpCSc9jgy6gYQ2gIh0qGitJRHwSJ6nv0Opg4fVxRKd6LJQWDkuIguAxtvf6Gd1SQbNA3/1DzYwcMe8SJobHe+4qzRt8ipIXzll0IRoKyr9jkKb0qIR4rIubnhzRlRzfedJQHXyj6J1QFMKfn6a28WZneBXaddOMgev9zJhIq3LOlgJxXdk9jXGglNqFOQI7ke+vF6bCyZRqylvYvxZD01Znp9YSb9Xhmr6Zl5ay7pI/J+kaJbBNpyi5v/ThM93foUX/1wCtT8/PaemruL6kXWfX+bgj5vxSzqYL6kR7jwIa+0jSraOrOqtQ==&Key-Pair-Id=APKAISLU6JPYU7SF6EUA
 
  - https://aws.amazon.com/pt/blogs/big-data/combine-nosql-and-massively-parallel-analytics-using-apache-hbase-and-apache-hive-on-amazon-emr/
 
