@@ -38,6 +38,16 @@
 
 >[Questões com respostas de exemplo - AWS](https://d1.awsstatic.com/training-and-certification/docs-ml/AWS-Certified-Machine-Learning-Specialty_Sample-Questions.pdf)
 
+> [Depoimento em português sobre a certificação](https://medium.com/marcelo-marques/meu-plano-de-estudos-para-a-certifica%C3%A7%C3%A3o-aws-data-analytics-em-30-dias-portuguese-5ce8cbe0bdcb)
+
+> [SageMaker FAQ](https://aws.amazon.com/sagemaker/faqs/)
+
+> [Playlist 2017 - Machine Learning Re:Invent](https://www.youtube.com/playlist?list=PLhr1KZpdzukeKUChZG8SdYipk7INwphQm)
+
+> [Playlist 2018 - Machine Learning Re:Invent](https://www.youtube.com/playlist?list=PLhr1KZpdzukdExxUr05-WIpdVYPWjgi43)
+
+
+
 ---
 
 ><h2> Dicas de outras pesssoas</h2>
@@ -570,7 +580,7 @@
     - Inferencia em Lotes (batch)
         - Batch transform Job 
         - Moldelo fica hosteado dentro do SageMaker em um container ECR igual a inferencia em tempo real
-        - Pegar os dados do S3 do modelo treinado igual a inferencia em tempo real
+        - Pega r os dados do S3 do modelo treinado igual a inferencia em tempo real
         - O Batch job pega os dados de um S3 que queremos inferir/prefer e carrega ele todo 
         - Então ele coloca o output resultante dentro do S3 
 
@@ -578,6 +588,36 @@
     - Consegue chamar o endpoint do modelo pelo AWS api/sdk
     - Signature Version 4 para fazer a chamada api
     - API G/W + Lambda (como um proxy): Possibilidade para chamar o SageMaker Endpoint
+
+<h2> Segurança nos Notebooks do SageMaker </h2>
+
+- IAM Policy: sagemaker:CreatePresignedNotebookInstanceUrl
+- Notebook root access
+- SaageMaker instance profiles
+- SageMaker não aceita políticas baseadas em recurso (resource-based policies)
+
+<h2> SageMaker e a VPC </h2>
+
+- SageMaker hospeda os modelos em uma VPC pública por padrão
+    - Crie uma VPC Privada
+- Modelos e dados armazenados em S3 (internet Pública)
+    - Criar um VPC S3 Endpoint
+    - Usar uma política de endpoint customizada para o S3
+    - Criptografar os dados dentro do S3 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
