@@ -587,6 +587,9 @@
 
 <h2> Anotações e links úteis </h2>
 
+- [Curso 1 Udemy](https://www.udemy.com/course/aws-machine-learning/)
+
+- [Curso 2 Udemy](https://www.udemy.com/course/aws-machine-learning-a-complete-guide-with-python/)
 
 - [⭐️ Resources ⭐](https://www.youtube.com/watch?v=9suSsTVhYuw) (Não lido ainda)
     - Links no comentário do vídeo
