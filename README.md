@@ -9,6 +9,6 @@
 
 - <h2>Sumário dos repositórios </h2>
 
-    - [Estudos de Machine Learning](https://github.com/yanickvia/Study/tree/master/ML%20Study)
+    - [Estudos de Machine Learning](https://github.com/viaconsulting/via-university/tree/master/Machine%20Learning%20Study#machine-learning---aws-certificate-study-)
 
-    - [Estudos de Data Analytics](https://github.com/yanickvia/Study/tree/master/Data%20Analytics%20Study#data-analytics---aws-certificate-study-)
+    - [Estudos de Data Analytics](https://github.com/viaconsulting/via-university/tree/master/Data%20Analytics%20Study#data-analytics---aws-certificate-study-)
