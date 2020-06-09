@@ -38,6 +38,16 @@
 
 >[Questões com respostas de exemplo - AWS](https://d1.awsstatic.com/training-and-certification/docs-ml/AWS-Certified-Machine-Learning-Specialty_Sample-Questions.pdf)
 
+> [Depoimento em português sobre a certificação](https://medium.com/marcelo-marques/meu-plano-de-estudos-para-a-certifica%C3%A7%C3%A3o-aws-data-analytics-em-30-dias-portuguese-5ce8cbe0bdcb)
+
+> [SageMaker FAQ](https://aws.amazon.com/sagemaker/faqs/)
+
+> [Playlist 2017 - Machine Learning Re:Invent](https://www.youtube.com/playlist?list=PLhr1KZpdzukeKUChZG8SdYipk7INwphQm)
+
+> [Playlist 2018 - Machine Learning Re:Invent](https://www.youtube.com/playlist?list=PLhr1KZpdzukdExxUr05-WIpdVYPWjgi43)
+
+
+
 ---
 
 ><h2> Dicas de outras pesssoas</h2>
@@ -440,12 +450,55 @@
     - Aposentado
 
 <h2> Serviços e Aplicações Amazon AI/ML (to do) </h2>
-    - Amazon Rekognition
-    - Amazon Polly
-    - Amazon Transcribe
-    - Amazon Transalate
-    - Amazon Comprehend
-    - Amazon Lex
+
+>A ideia desses serviços é fazer o "trabalho pesado" pelo usuário. Basicamente eles facilitam a nossa vida provendo modelos pré-treinados e com alta acurácia! :)  
+
+- Amazon Rekognition
+    - Análise de imagem e vídeos: chamado por APi call
+        - Resposta com % de confiança de ser o que infere
+    - Serviço de reconhecimento de imagens, o qual pode ser dividido em duas categorias:
+        - Algoritmos que são pré-treinados por dados coletados pela Amazon ou seus parceiros
+        - Algoritmos que os usuários podem treinar com uma base de dados personalizada
+    - Algoritmos pré-treinados:
+        - reconhecimento de celebridades
+        - Detecção de atributos faciais em uma imagem, como genero, faixa etaria, emoções...
+        - Detecção de conteúdo visual inserguro
+        - Detecção de Texto em imagens e processamento do texto para detectar o conteúdo
+    - Vídeos: Pode processar vídeos armazenados ou Live Vídeos    
+    
+- Amazon Polly
+    -  Converter Texto para Voz (TTS Text to Speak)
+    - SSML: colocar efeito nas vozes, tipo a voz ser sussurrando
+
+- Amazon Transcribe
+    - Transformar a voz em texto
+        - Modelo Deep_learning pré-treinado
+    - Para assuntos específicos, podemos adicionar vocabulários customizados para ajudar na interpretação da voz 
+
+- Amazon Transalate
+    - Tradução de texto
+        - Modelo Deep_learning pré-treinado
+    - Batch ou Stream em tempo real
+
+- Amazon Comprehend
+    - Serviço de análise de textos 
+        - Solução de Processamento de linguagem natural (Natural Language Processing NLP)
+        - Modelo Deep_learning pré-treinado
+    - o que ele faz:
+        - Extração de frases chaves em textos
+        - Análise de sentimento
+        - Análise de sintaxe 
+        - Reconhecimento de entidade (do que o texto está falando?)
+        - Extração de informações dentro de anotações médicas (específico)
+        - Detecção de linguagem
+        - Classificações personalizadas
+        - Modelágem de tópicos
+- Amazon Lex
+    - Serviço de interface de comunicação
+        - Imagine como uma "Alexa" ou "chatbot"
+    - Reconhecimento de voz automático 
+    - Entendimento de linguagem natural
+
 
 <h2> AWS SageMaker </h2>
 
@@ -570,7 +623,7 @@
     - Inferencia em Lotes (batch)
         - Batch transform Job 
         - Moldelo fica hosteado dentro do SageMaker em um container ECR igual a inferencia em tempo real
-        - Pegar os dados do S3 do modelo treinado igual a inferencia em tempo real
+        - Pega r os dados do S3 do modelo treinado igual a inferencia em tempo real
         - O Batch job pega os dados de um S3 que queremos inferir/prefer e carrega ele todo 
         - Então ele coloca o output resultante dentro do S3 
 
@@ -579,6 +632,36 @@
     - Signature Version 4 para fazer a chamada api
     - API G/W + Lambda (como um proxy): Possibilidade para chamar o SageMaker Endpoint
 
+<h2> Segurança nos Notebooks do SageMaker </h2>
+
+- IAM Policy: sagemaker:CreatePresignedNotebookInstanceUrl
+- Notebook root access
+- SaageMaker instance profiles
+- SageMaker não aceita políticas baseadas em recurso (resource-based policies)
+
+<h2> SageMaker e a VPC </h2>
+
+- SageMaker hospeda os modelos em uma VPC pública por padrão
+    - Crie uma VPC Privada
+- Modelos e dados armazenados em S3 (internet Pública)
+    - Criar um VPC S3 Endpoint
+    - Usar uma política de endpoint customizada para o S3
+    - Criptografar os dados dentro do S3 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -586,6 +669,8 @@
 
 
 <h2> Anotações e links úteis </h2>
+
+- [Curso Linux Academy](https://linuxacademy.com/cp/modules/view/id/340)
 
 - [Curso 1 Udemy](https://www.udemy.com/course/aws-machine-learning/)
 
