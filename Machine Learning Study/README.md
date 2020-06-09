@@ -539,12 +539,46 @@
         - (Documentação dos algoritmos)[https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html]
     - AWS Marketplace
 
+- Hyperparameter Tuning
+    - Nativo do SageMaker  
+        - Escolhe um algoritmo    
+        - Seleciona um range de hyperparameters
+        - Escolhe uma métrica para medir
+    - Dentro do Hyperparameter Tuninb, existe um Modelo de Tuning, que baseado no range vai testando diferentes formas e aprendendo para qual direção parece ser mais apropropriado "guiar" o "experimento" de tuning
+    - Existem limites para o numeros de hyperparameters e instâncias EC2
 
 
 
+- Inference Pipelines
+    - Modelo que inputa dado em outro modelo    
+- Hospedando Inferencia em tempo real e em Batch
+    - Inferencia em tempo real 
+        - SageMaker Endpoint: Providencia acesso ao modelo ou cadeia de modelos (pipeline)
+        - Para rodar o modelo, pega uma imagem do ECR (a imagem do modelo do elastic container registry)
+        - Pegar do S3 os dados do modelo treinado anteriormente
+        - juntando essas coisas, o modelo roda dentro do container docker SageMaker, e esse é o modelo em execução 
+        - O SageMaker Endpoint não possui um escopo global externo
+            - Você não pode acessá-lo do mundo externo
+            - É um endpoint interno a AWS
+            - Não é como um endpoint como qualquer outro normal
+        - {api sagemaker:InvokeEndpoint} : Fazer chamada do modelo por meio de api
+        - Lambda consegue chamar a api do SageMaker 
+        - Criar Configuração do endpoint
+        - Criar endpoit
+        - Fazer chamada do endpoint
 
+    - Inferencia em Lotes (batch)
+        - Batch transform Job 
+        - Moldelo fica hosteado dentro do SageMaker em um container ECR igual a inferencia em tempo real
+        - Pegar os dados do S3 do modelo treinado igual a inferencia em tempo real
+        - O Batch job pega os dados de um S3 que queremos inferir/prefer e carrega ele todo 
+        - Então ele coloca o output resultante dentro do S3 
 
-
+- Acessando a Inferencia por um App
+    - Consegue chamar o endpoint do modelo pelo AWS api/sdk
+    - Signature Version 4 para fazer a chamada api
+    - API G/W + Lambda (como um proxy): Possibilidade para chamar o SageMaker Endpoint
+    - 
 
 
 
