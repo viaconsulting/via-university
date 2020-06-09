@@ -578,7 +578,7 @@
     - Consegue chamar o endpoint do modelo pelo AWS api/sdk
     - Signature Version 4 para fazer a chamada api
     - API G/W + Lambda (como um proxy): Possibilidade para chamar o SageMaker Endpoint
-    - 
+
 
 
 
@@ -592,4 +592,4 @@
     - Links no comentário do vídeo
 - [ROC/AUC](https://medium.com/@eam.avelar/o-que-%C3%A9-auc-e-roc-nos-modelos-de-machine-learning-2e2c4112033d) (não lido ainda)
 
-- (Documentação dos algoritmos do SageMaker)[https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html]
+- [Documentação dos algoritmos do SageMaker](https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html)
