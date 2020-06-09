@@ -450,12 +450,55 @@
     - Aposentado
 
 <h2> Serviços e Aplicações Amazon AI/ML (to do) </h2>
-    - Amazon Rekognition
-    - Amazon Polly
-    - Amazon Transcribe
-    - Amazon Transalate
-    - Amazon Comprehend
-    - Amazon Lex
+
+>A ideia desses serviços é fazer o "trabalho pesado" pelo usuário. Basicamente eles facilitam a nossa vida provendo modelos pré-treinados e com alta acurácia! :)  
+
+- Amazon Rekognition
+    - Análise de imagem e vídeos: chamado por APi call
+        - Resposta com % de confiança de ser o que infere
+    - Serviço de reconhecimento de imagens, o qual pode ser dividido em duas categorias:
+        - Algoritmos que são pré-treinados por dados coletados pela Amazon ou seus parceiros
+        - Algoritmos que os usuários podem treinar com uma base de dados personalizada
+    - Algoritmos pré-treinados:
+        - reconhecimento de celebridades
+        - Detecção de atributos faciais em uma imagem, como genero, faixa etaria, emoções...
+        - Detecção de conteúdo visual inserguro
+        - Detecção de Texto em imagens e processamento do texto para detectar o conteúdo
+    - Vídeos: Pode processar vídeos armazenados ou Live Vídeos    
+    
+- Amazon Polly
+    -  Converter Texto para Voz (TTS Text to Speak)
+    - SSML: colocar efeito nas vozes, tipo a voz ser sussurrando
+
+- Amazon Transcribe
+    - Transformar a voz em texto
+        - Modelo Deep_learning pré-treinado
+    - Para assuntos específicos, podemos adicionar vocabulários customizados para ajudar na interpretação da voz 
+
+- Amazon Transalate
+    - Tradução de texto
+        - Modelo Deep_learning pré-treinado
+    - Batch ou Stream em tempo real
+
+- Amazon Comprehend
+    - Serviço de análise de textos 
+        - Solução de Processamento de linguagem natural (Natural Language Processing NLP)
+        - Modelo Deep_learning pré-treinado
+    - o que ele faz:
+        - Extração de frases chaves em textos
+        - Análise de sentimento
+        - Análise de sintaxe 
+        - Reconhecimento de entidade (do que o texto está falando?)
+        - Extração de informações dentro de anotações médicas (específico)
+        - Detecção de linguagem
+        - Classificações personalizadas
+        - Modelágem de tópicos
+- Amazon Lex
+    - Serviço de interface de comunicação
+        - Imagine como uma "Alexa" ou "chatbot"
+    - Reconhecimento de voz automático 
+    - Entendimento de linguagem natural
+
 
 <h2> AWS SageMaker </h2>
 
@@ -626,6 +669,8 @@
 
 
 <h2> Anotações e links úteis </h2>
+
+- [Curso Linux Academy](https://linuxacademy.com/cp/modules/view/id/340)
 
 - [Curso 1 Udemy](https://www.udemy.com/course/aws-machine-learning/)
 
