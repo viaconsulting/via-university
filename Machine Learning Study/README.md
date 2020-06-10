@@ -38,13 +38,7 @@
 
 >[Questões com respostas de exemplo - AWS](https://d1.awsstatic.com/training-and-certification/docs-ml/AWS-Certified-Machine-Learning-Specialty_Sample-Questions.pdf)
 
-> [Depoimento em português sobre a certificação](https://medium.com/marcelo-marques/meu-plano-de-estudos-para-a-certifica%C3%A7%C3%A3o-aws-data-analytics-em-30-dias-portuguese-5ce8cbe0bdcb)
 
-> [SageMaker FAQ](https://aws.amazon.com/sagemaker/faqs/)
-
-> [Playlist 2017 - Machine Learning Re:Invent](https://www.youtube.com/playlist?list=PLhr1KZpdzukeKUChZG8SdYipk7INwphQm)
-
-> [Playlist 2018 - Machine Learning Re:Invent](https://www.youtube.com/playlist?list=PLhr1KZpdzukdExxUr05-WIpdVYPWjgi43)
 
 
 
@@ -192,7 +186,7 @@
     - Trocar os valores tipo texto por inteiro
         - Fazer uma representação binária do valores
         - 4 valores diferentes de texto se tornariam 4 recursos (colunas) a mais nos dado
-    - Algoritmos de ML usam números, usar troca de valores texto por númérico
+    - Algoritmos de ML usam números, usar troca de valores texto por numérico
     - Se não deveria ter uma relação entre os valores de um recurso, então usar o One Hot Encoding (representação binária)
 
 - Divisão dos dados
@@ -285,7 +279,7 @@
     - Deixar o K pequeno o suficiente para que classes com poucos dados não perca a influência
 
 - Alocação latente de Dirichlet
-    >- No processamento de linguagem natural, a alocação latente de Dirichlet é um modelo estatístico generativo que permite que conjuntos de observações sejam explicados por grupos não observados que explicam por que algumas partes dos dados são semelhantes
+    >- No processamento de linguagem natural, a alocação latente de Dirichlet é um modelo estatístico generativo que permite que conjuntos de observações sejam explicados por grupos não observados que explicam porque algumas partes dos dados são semelhantes
     - Algoritmo Não Supervisionado
     - Infere/prevê Classificações e outros... 
     - Usado em análise de textos, para inserir tags em documentos... 
@@ -298,7 +292,7 @@
 
 - Redes Neurais
     >- Em ciência da computação e campos relacionados, redes neurais artificiais são modelos computacionais inspirados pelo sistema nervoso central de um animal que são capazes de realizar o aprendizado de máquina bem como o reconhecimento de padrões.
-    - Inferência = um dos neurôneos de output serndo ativados mais predominantemente
+    - Inferência = um dos neurôneos do output sendo ativados mais predominantemente
     - Vértices são valores e as arestas são pesos. O fluxo calcula os valores dos vértices adjacentes utilizando o peso + Bias e uma função de ativação
         - Função de ativação: Sigmoid( valore entre 0 e 1), ReLU(valores 0 se negativo e n = n se positivo) e Tanh (valores entre -1 e 1)
         - Bias: previne que o neuronio não seja desativado
@@ -654,6 +648,7 @@
 
 
 
+- SMOTE (Synthetic Minority Over-sampling Technique)
 
 
 
@@ -663,8 +658,8 @@
 
 
 
-
-
+- Estocástico: Em teoria probabilística, o padrão estocástico é aquele cujo estado é indeterminado, com origem em eventos aleatórios. 
+    - Quando o gráfico tem vários pontos de mínima, tipo vales, dividir em vários lotes não ajuda, pois o alg tende a não encontrar um bom vale. REduzindo o número de batchs (lotes), o algoritmo tende a encontrar melhores pontos de mínima no gráfico [ref no abstract](https://arxiv.org/pdf/1609.04836.pdf)
 
 
 
@@ -681,3 +676,15 @@
 - [ROC/AUC](https://medium.com/@eam.avelar/o-que-%C3%A9-auc-e-roc-nos-modelos-de-machine-learning-2e2c4112033d) (não lido ainda)
 
 - [Documentação dos algoritmos do SageMaker](https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html)
+
+- [The tf–idf vectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html)
+
+- [Binary Model Insights](https://docs.aws.amazon.com/machine-learning/latest/dg/binary-model-insights.html) 
+
+- [Developer guide Aws](https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-dg.pdf?icmpid=docs_sagemaker_lp)
+
+- [SageMaker FAQ](https://aws.amazon.com/sagemaker/faqs/)
+
+- [Playlist 2017 - Machine Learning Re:Invent](https://www.youtube.com/playlist?list=PLhr1KZpdzukeKUChZG8SdYipk7INwphQm)
+
+- [Playlist 2018 - Machine Learning Re:Invent](https://www.youtube.com/playlist?list=PLhr1KZpdzukdExxUr05-WIpdVYPWjgi43)

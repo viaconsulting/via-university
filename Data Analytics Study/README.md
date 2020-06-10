@@ -41,6 +41,7 @@
     > - Usar e-mail do suporte para login na conta do g-mail(apenas para internos da Via consulting)
 > [Curso linuxAcademy](https://linuxacademy.com/course/aws-certified-big-data-specialty-course/)
 
+> [Depoimento em português sobre a certificação](https://medium.com/marcelo-marques/meu-plano-de-estudos-para-a-certifica%C3%A7%C3%A3o-aws-data-analytics-em-30-dias-portuguese-5ce8cbe0bdcb)
 
 ---
 
