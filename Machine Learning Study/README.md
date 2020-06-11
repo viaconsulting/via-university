@@ -36,7 +36,7 @@
 
 ---
 
->[Questões com respostas de exemplo - AWS](https://d1.awsstatic.com/training-and-certification/docs-ml/AWS-Certified-Machine-Learning-Specialty_Sample-Questions.pdf)
+>[Questões com res postas de exemplo - AWS](https://d1.awsstatic.com/training-and-certification/docs-ml/AWS-Certified-Machine-Learning-Specialty_Sample-Questions.pdf)
 
 
 
@@ -572,7 +572,8 @@
         - Latent Dirichlet Allocation (LDA) alg (Amazon Comprehend, maybe)
             - Text Analysis
             - Topic Discovery 
-        - Linear learner algo
+        - Linear learner algorithm
+            -
         - Object2vec Alg
         - Principal Component Analysist (PCA) alg
             - Reduce the dimensionality (i.e number of features)
@@ -580,7 +581,7 @@
         - Squence-to-Sequence alg
         - XGBoost alg
             - eXtreme Gradient Boosting
-            - Gradient boosted tress algoriothm
+            - Gradient boosted tress algorithm
             - Use Case:
                 - Making predictions from tabular data
         - (Documentação dos algoritmos)[https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html]
