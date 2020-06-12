@@ -1,8 +1,5 @@
 <h1>Estudos Colaborativos AWS - Certificações</h1>
 
-Isso aqui não precisa de subtítulo!
-## sub título
-
 >Repositório Git com intuito de compartilhar conteúdos em português/inglês dos estudos efetuados para tirar as certificações AWS, além de dicas e exeperiências vividas
 
 >[Aqui tem um site legal sobre como formatar arquivo .md - README.md)](https://www.markdownguide.org/basic-syntax/)
