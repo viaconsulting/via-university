@@ -12,10 +12,3 @@
     - [Estudos de Machine Learning](https://github.com/viaconsulting/via-university/tree/master/Machine%20Learning%20Study#machine-learning---aws-certificate-study-)
 
     - [Estudos de Data Analytics](https://github.com/viaconsulting/via-university/tree/master/Data%20Analytics%20Study#data-analytics---aws-certificate-study-)
-
-
->teste
-
----
-
-'''<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://app.lucidchart.com/documents/embeddedchart/75de6d0f-3f3d-4f08-b236-2ba94c86acea" id="gOw_zClUbzdk"></iframe></div>'''
